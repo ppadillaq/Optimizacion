@@ -98,8 +98,6 @@ function [X_data,S_data,fX_data,i] = steepestDescent(f, X0, varargin)
         end
     end
 
-    i = i - 1;
-
 end
 
 function converged = convergenceCriteria(X, X0, fX, fX0, delta_f, eps1, eps2, eps3)
